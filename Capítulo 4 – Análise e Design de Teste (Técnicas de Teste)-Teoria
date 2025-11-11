@@ -1,0 +1,144 @@
+4.1 Visão geral das técnicas de teste
+Categorias (FL-4.1.1 – K2)
+
+Caixa-preta (baseadas em especificação): derivam testes a partir de requisitos ou especificações sem olhar o código. Ex.: Particionamento de Equivalência, Valor Limite, Tabela de Decisão, Transição de Estado.
+
+Caixa-branca (baseadas em estrutura): derivam testes a partir do código ou design interno. Ex.: Cobertura de instruções, Cobertura de decisões.
+
+Baseadas em experiência: exploram conhecimento, intuição e histórico dos testadores. Ex.: Teste Exploratório, Suposição de Erros, Checklists.
+
+4.2 Técnicas de Teste Caixa-Preta
+Particionamento de Equivalência (EP) (FL-4.2.1 – K3)
+
+Divide entradas/condições em classes válidas e inválidas.
+
+Seleciona um caso representativo de cada classe.
+
+Ex.: Campo de idade (1–120) → classes: abaixo de 1, entre 1–120, acima de 120.
+
+Análise de Valor Limite (BVA) (FL-4.2.2 – K3)
+
+Foca em valores nos limites das partições.
+
+Ex.: Campo de idade (1–120) → valores: 0, 1, 2, 119, 120, 121.
+
+Tabela de Decisão (FL-4.2.3 – K3)
+
+Útil para regras de negócio com múltiplas condições.
+
+Monta-se tabela de condições (T/F) e ações correspondentes.
+
+Garante cobertura de combinações de regras.
+
+Transição de Estado (FL-4.2.4 – K3)
+
+Baseia-se em estados possíveis de um sistema e suas transições.
+
+Inclui testes de sequências válidas e inválidas de transição.
+
+Ex.: Máquina de estados de login → estados: “deslogado”, “logando”, “logado”.
+
+4.3 Técnicas de Teste Caixa-Branca
+Cobertura de instrução (statement coverage) (FL-4.3.1 – K2)
+
+Mede se cada instrução no código foi executada pelo menos uma vez.
+
+Foco: cobertura mínima de execução.
+
+Cobertura de ramificação (decision/branch coverage) (FL-4.3.2 – K2)
+
+Mede se cada decisão (true/false) foi avaliada pelo menos uma vez.
+
+Mais robusto que statement coverage.
+
+Valor do teste caixa-branca (FL-4.3.3 – K2)
+
+Identifica caminhos não testados.
+
+Detecta áreas do código “mortas”.
+
+Complementa os testes caixa-preta.
+
+4.4 Técnicas de Teste Baseadas na Experiência
+Suposição de Erros (FL-4.4.1 – K2)
+
+Baseia-se em experiência anterior ou intuição para antecipar defeitos prováveis.
+
+Ex.: “Entradas nulas costumam causar falhas → vamos testar isso”.
+
+Experiência e intuição → Já vi isso quebrar antes.
+
+Teste Exploratório (FL-4.4.2 – K2)
+
+Combina design, execução e análise em tempo real.
+
+Guiado por charters (missões).
+
+Bom para contextos dinâmicos, pouco documentados.
+
+Aprendizado em tempo real → Aprendo enquanto testo
+
+Checklists (FL-4.4.3 – K2)
+
+Uso de listas de verificação para lembrar de áreas típicas de falha.
+
+Ex.: checklist de segurança, usabilidade, acessibilidade.
+
+4.5 Abordagens de Teste Baseadas na Colaboração
+Histórias de usuário (FL-4.5.1 – K2)
+
+Escritas de forma colaborativa entre devs, testadores e negócio.
+
+Formato comum: “Como [usuário], quero [funcionalidade] para [benefício]” → serve justamente para garantir que toda história tenha propósito — não apenas uma ação técnica.
+Isso evita criar features que não entregam valor percebido.
+
+Permitem alinhar entendimento de todos.
+
+Critérios de aceitação (FL-4.5.2 – K2)
+
+Descrevem quando a história é considerada “pronta”.
+
+Podem ser escritos como:
+
+Condições de sucesso simples (checklist).
+
+Exemplos concretos (“dado/quando/então”).
+
+Critérios em linguagem de negócio.
+
+ATDD – Acceptance Test-Driven Development (FL-4.5.3 – K3)
+
+Os critérios de aceitação viram testes automatizados antes da implementação.
+
+Casos de teste derivam diretamente desses critérios.
+
+Exemplo: usar BDD (Given-When-Then) para formalizar critérios → que guiam desenvolvimento.
+
+🔎 Revisão rápida (para flashcards)
+Categorias: Caixa-preta = requisitos | Caixa-branca = código | Experiência = intuição.
+
+EP: classes válidas/ inválidas → 1 caso por classe.
+
+BVA: valores de limite ±1.
+
+Tabela de decisão: múltiplas condições → combinações.
+
+Transição de estado: estados e sequências válidas/ inválidas.
+
+Statement coverage: cada instrução.
+
+Branch coverage: cada decisão T/F.
+
+Caixa-branca valor: revela código não testado.
+
+Suposição de erros: intuição/experiência.
+
+Exploratório: design + execução + análise ao vivo.
+
+Checklists: lembrete de falhas comuns.
+
+História de usuário: escrita colaborativa.
+
+Critérios de aceitação: definem pronto (checklist, exemplos, GWT).
+
+ATDD: critérios → testes antes da implementação.
