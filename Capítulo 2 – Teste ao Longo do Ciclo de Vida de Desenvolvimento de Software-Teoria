@@ -1,0 +1,222 @@
+2.1 Testes no Contexto de um Ciclo de Vida de Desenvolvimento de Software
+🌀 Impacto do ciclo de vida nos testes (FL-2.1.1 – K2)
+Modelos sequenciais (ex.: Waterfall): teste concentrado no final → maior risco de defeitos tardios e retrabalho.
+
+Modelos iterativos / ágeis: teste contínuo e integrado a cada iteração → defeitos detectados mais cedo.
+
+O modelo de ciclo de vida influencia quando, como e com que foco o teste é executado.
+
+O planejamento e a rastreabilidade precisam se adaptar ao tipo de ciclo.
+
+🧩 Boas práticas aplicáveis a todos os ciclos (FL-2.1.2 – K1)
+Iniciar o teste o quanto antes (shift-left).
+
+Definir objetivos claros e mensuráveis.
+
+Estabelecer critérios de saída (quando parar de testar).
+
+Manter rastreabilidade entre requisitos, testes e defeitos.
+
+Comunicar resultados claramente e com foco em valor.
+
+🧪 Abordagens de desenvolvimento que priorizam o teste (FL-2.1.3 – K1)
+Abordagem
+
+Significado
+
+Foco
+
+TDD (Test-Driven Development)
+
+Escrever testes antes do código
+
+Qualidade técnica e design limpo
+
+ATDD (Acceptance Test-Driven Development)
+
+Criar testes de aceitação antes da implementação
+
+Clareza de requisitos e colaboração
+
+BDD (Behavior-Driven Development)
+
+Descrever comportamento esperado em linguagem do negócio
+
+Comunicação e entendimento comum
+
+⚙️ Impacto do DevOps nos testes (FL-2.1.4 – K2)
+Integração Contínua (CI) + Entrega Contínua (CD) → exigem alta automação.
+
+Os testes tornam-se parte do pipeline automatizado (build → deploy → teste → release).
+
+Feedback rápido sobre qualidade e desempenho.
+
+Colaboração entre Dev, Ops e QA é essencial (testes compartilhados e contínuos).
+
+Ênfase em testes automatizados, monitoramento e observabilidade.
+
+⏪ Abordagem “Shift-Left” (FL-2.1.5 – K2)
+Significado: mover atividades de teste para o início do ciclo de desenvolvimento.
+
+Benefícios: detectar e prevenir defeitos mais cedo, reduzindo custos e riscos.
+
+Exemplos: revisões de requisitos, TDD, testes estáticos, automação de build e análise contínua.
+
+🔁 Retrospectivas como mecanismo de melhoria (FL-2.1.6 – K2)
+Após cada iteração, a equipe avalia o que funcionou e o que precisa melhorar.
+
+Resultados: ajustes de processo, comunicação e práticas de teste.
+
+Objetivo: melhoria contínua e cultura de aprendizado (aprendizado coletivo).
+
+2.2 Níveis de Teste e Tipos de Teste
+📚 Níveis de Teste (FL-2.2.1 – K2)
+Nível
+
+Objetivo
+
+Exemplo
+
+Teste de Componente (Unitário)
+
+Verificar módulos isoladamente
+
+Funções, classes, APIs
+
+Teste de Integração
+
+Verificar interações entre componentes ou sistemas
+
+Integração entre módulos ou serviços
+
+Teste de Sistema
+
+Verificar o sistema completo em relação aos requisitos funcionais e não funcionais
+
+Teste ponta a ponta
+
+Teste de Aceitação
+
+Validar se o sistema atende às necessidades do usuário e do negócio
+
+Testes de aceitação do usuário (UAT), alfa/beta
+
+💡 Dica ISTQB: cada nível de teste tem seu próprio objetivo, base de teste e foco de defeitos.
+
+🧭 Tipos de Teste (FL-2.2.2 – K2)
+Tipo
+
+O que verifica
+
+Exemplos
+
+Funcional
+
+Comportamento do sistema conforme requisitos funcionais
+
+Testes caixa-preta, casos de uso
+
+Não Funcional
+
+Atributos de qualidade (performance, usabilidade, segurança, manutenibilidade, portabilidade, confiabilidade)
+
+Teste de carga, desempenho, segurança
+
+Baseado em Mudança
+
+Verifica efeitos de modificações no software
+
+Confirmação e Regressão
+
+🔄 Confirmação vs. Regressão (FL-2.2.3 – K2)
+Tipo
+
+Objetivo
+
+Exemplo
+
+Confirmação (Re-test)
+
+Garantir que a correção de um defeito foi eficaz
+
+Reexecutar o teste do defeito corrigido
+
+Regressão
+
+Verificar que alterações não introduziram novos defeitos
+
+Reexecutar testes existentes + novos
+
+💡 ISTQB v4.0 reforça: a automação de regressão é essencial em contextos ágeis e DevOps.
+
+2.3 Teste de Manutenção
+🔧 Resumo e Acionadores (FL-2.3.1 – K2)
+Sistemas em produção requerem testes contínuos para garantir que mudanças não afetem a estabilidade.
+
+Acionadores típicos:
+
+Modificação de software: correções, novas funcionalidades.
+
+Migração: mudança de ambiente (hardware, SO, nuvem).
+
+Aposentadoria ou desativação: remoção de dados ou funcionalidades.
+
+Atualizações de segurança ou ajustes de configuração.
+
+Inclui:
+
+Testes de regressão e impacto.
+
+Testes específicos para garantir compatibilidade e confiabilidade.
+
+Planejamento de manutenção preventiva.
+
+🔎 Revisão Rápida (Flashcards)
+Tema
+
+Dica rápida
+
+Tema
+
+Dica rápida
+
+Impacto do ciclo de vida
+
+Waterfall → testes tardios; Ágil → testes contínuos
+
+Boas práticas gerais
+
+Começar cedo, rastreabilidade, objetivos e critérios claros
+
+Abordagens baseadas em teste
+
+TDD, ATDD, BDD
+
+DevOps
+
+Automação total (CI/CD), feedback rápido, colaboração
+
+Shift-Left
+
+Testar e revisar desde o início
+
+Retrospectiva
+
+Melhoria contínua da equipe
+
+Níveis de teste
+
+Componente → Integração → Sistema → Aceitação
+
+Tipos de teste
+
+Funcional, Não Funcional, Baseado em Mudança
+
+Confirmação vs Regressão
+
+Confirmar correção vs garantir estabilidade
+
+Teste de manutenção
+
+Após mudanças, migrações ou desativação
+
