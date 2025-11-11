@@ -1,0 +1,375 @@
+5.1 Planejamento de Teste
+📘 Finalidade e conteúdo do plano de teste (FL-5.1.1 – K2)
+Finalidade:
+Descrever o que será testado, como será testado, por quem, quando e com quais recursos.
+
+Conteúdo típico:
+
+Escopo e objetivos (o que está e o que não está incluído).
+
+Abordagem de teste (níveis, tipos, técnicas e automação).
+
+Recursos e responsabilidades (pessoas, ferramentas, ambientes).
+
+Cronograma e marcos (milestones).
+
+Critérios de entrada e saída.
+
+Riscos e estratégias de mitigação.
+
+Métricas e formas de monitoramento.
+
+Comunicação e relatórios.
+
+💡 Nota: O plano de teste pode existir em vários níveis (plano mestre, plano de nível de teste, plano de iteração em ágil).
+
+💬 Valor do testador no planejamento (FL-5.1.2 – K1)
+O testador contribui com:
+
+Identificação e análise de riscos de produto.
+
+Estimativas realistas de esforço e recursos.
+
+Feedback sobre prazos, qualidade esperada e viabilidade.
+
+Discussão de dependências e aspectos técnicos de teste.
+
+Apoio à priorização baseada em risco.
+
+🚦 Critérios de entrada e saída (FL-5.1.3 – K2)
+Tipo
+
+Significado
+
+Exemplos
+
+Critérios de entrada
+
+Pré-condições para iniciar os testes.
+
+Requisitos aprovados, ambiente configurado, dados disponíveis.
+
+Critérios de saída
+
+Condições para encerrar os testes.
+
+Cobertura mínima atingida, defeitos críticos corrigidos, relatórios entregues.
+
+📊 Estimativa de esforço (FL-5.1.4 – K3)
+Objetivo: prever o esforço e custo de teste com base em dados e experiência.
+
+Técnicas principais:
+
+Baseadas em métricas históricas → produtividade anterior, proporção Dev/Test.
+
+Baseadas em especialistas → opinião de testadores experientes.
+
+Baseadas em modelos → pontos de caso de teste, pontos de função, tamanho do software etc.
+
+🔹 O ISTQB destaca que a precisão melhora com dados históricos consistentes e revisões colaborativas.
+
+⚖️ Priorização de casos de teste (FL-5.1.5 – K3)
+Critérios comuns:
+
+Risco do produto (probabilidade × impacto).
+
+Frequência de uso / valor de negócio.
+
+Complexidade e criticidade.
+
+Mudanças recentes.
+
+💡 Foco: testar primeiro o que é mais arriscado, usado e crítico.
+
+🧱 Pirâmide de Teste (FL-5.1.6 – K1)
+Representa a quantidade e o foco relativo de testes em diferentes níveis:
+
+Nível
+
+Exemplo
+
+Propósito
+
+Base (maior parte)
+
+Testes unitários automatizados
+
+Rápidos e baratos
+
+Meio
+
+Testes de integração e API
+
+Verificar interação entre módulos
+
+Topo (menor parte)
+
+Testes de UI / ponta a ponta
+
+Garantir fluxo completo
+
+🎯 Objetivo: rápido feedback, baixo custo e alta confiabilidade.
+
+🧭 Quadrantes de Teste (FL-5.1.7 – K2)
+Relaciona testes voltados à tecnologia ou ao negócio × apoio à equipe ou crítica ao produto.
+
+Quadrante
+
+Foco
+
+Exemplo
+
+Tipo
+
+Q1
+
+Tecnologia / Apoia equipe
+
+Testes de unidade, integração de componentes
+
+Automatizados
+
+Q2
+
+Negócio / Apoia equipe
+
+Testes funcionais, testes de aceitação baseados em histórias
+
+Funcionais
+
+Q3
+
+Negócio / Crítico ao produto
+
+Testes de usabilidade, exploratórios, aceitação do usuário
+
+Experienciais
+
+Q4
+
+Tecnologia / Crítico ao produto
+
+Testes de desempenho, segurança, carga
+
+Não funcionais
+
+💡 ISTQB reforça que os quadrantes não são fases, mas formas complementares de enxergar o propósito dos testes.
+
+5.2 Gerenciamento de Risco
+⚠️ Conceito (FL-5.2.1 – K1)
+Risco = Probabilidade × Impacto
+
+O foco do teste é reduzir riscos de produto ao detectar defeitos o mais cedo possível.
+
+🔎 Tipos de risco (FL-5.2.2 – K2)
+Tipo
+
+Descrição
+
+Exemplos
+
+Risco de projeto
+
+Relacionado à gestão ou cronograma
+
+Prazos, recursos, dependências, ferramentas.
+
+Risco de produto
+
+Relacionado à qualidade do software
+
+Funcionalidades incorretas, desempenho, segurança.
+
+🧩 Influência da análise de risco (FL-5.2.3 – K2)
+Define prioridade de testes (o que testar primeiro).
+
+Determina nível de rigor (grau de profundidade, formalidade e detalhamento) e quantidade de teste.
+
+Influencia design de casos de teste, níveis de automação e métricas de cobertura.
+
+🧰 Respostas ao risco (FL-5.2.4 – K2)
+Estratégia
+
+O que faz
+
+Exemplo
+
+Mitigar
+
+Reduz a probabilidade ou impacto
+
+Fazer testes de desempenho antes do lançamento
+
+Contingência
+
+Define ações caso o risco ocorra
+
+Ter servidor de backup se o principal falhar
+
+Transferir
+
+Passa o risco para terceiros
+
+Fazer seguro, usar serviço de nuvem
+
+Aceitar
+
+Assume o risco conscientemente
+
+Mudanças de preferência do cliente
+
+5.3 Monitoramento, Controle e Conclusão
+📈 Métricas (FL-5.3.1 – K1)
+Propósito: medir progresso, qualidade e eficiência.
+
+Categoria
+
+Exemplos
+
+Cobertura
+
+de requisitos, código, testes executados
+
+Defeitos
+
+número total, pendentes, taxa de correção
+
+Execução
+
+casos planejados vs. executados
+
+Qualidade
+
+severidade, taxa de falha, MTTF (tempo médio até falha)
+
+💡 Métricas de produto: qualidade do software (ex.: MTTF) e confiabilidade, desempenho, manutenibilidade.
+💡 Métricas de processo: eficiência da atividade de teste (ex.: cobertura, taxa de detecção).
+
+🗂️ Relatórios de Teste (FL-5.3.2 – K2)
+Finalidade: comunicar status, riscos e qualidade.
+
+Conteúdo típico:
+
+Progresso da execução.
+
+Cobertura de teste.
+
+Defeitos encontrados / resolvidos.
+
+Riscos remanescentes.
+
+Conclusões e recomendações.
+
+📣 Público: equipe, gerência, stakeholders.
+Relatórios podem ser formais (documentos) ou informais (dashboards, reuniões).
+
+💬 Comunicação de status (FL-5.3.3 – K2)
+Deve ser clara, objetiva e adequada ao público.
+
+Ferramentas: dashboards, reuniões diárias, relatórios executivos.
+
+Enfatiza transparência e colaboração contínua.
+
+5.4 Gerenciamento de Configuração (FL-5.4.1 – K2)
+Propósito: garantir rastreabilidade e controle de versões de todos os itens de teste.
+
+Benefício
+
+Descrição
+
+Controle de versão
+
+saber qual versão de caso, script, ambiente foi usada
+
+Rastreabilidade
+
+ligar defeitos → casos → builds → requisitos
+
+Consistência
+
+evita testar versões incorretas
+
+Reprodutibilidade
+
+permite repetir testes com a mesma configuração
+
+5.5 Gerenciamento de Defeitos (FL-5.5.1 – K3)
+📋 Relatório de defeito — deve conter:
+ID e título do defeito
+
+Descrição clara do problema
+
+Passos para reproduzir
+
+Resultado esperado vs. obtido
+
+Severidade (impacto técnico)
+
+Prioridade (ordem de correção)
+
+Status (novo, em análise, corrigido, fechado)
+
+Responsável / versão afetada
+
+💡 Boa prática: Relatórios devem ser claros, objetivos e rastreáveis (referenciar casos de teste e builds).
+
+🔎 Revisão rápida (para flashcards)
+Tópico
+
+Lembrete rápido
+
+Tópico
+
+Lembrete rápido
+
+Plano de teste
+
+escopo, riscos, critérios, recursos, métricas
+
+Entrada × Saída
+
+começar vs encerrar
+
+Estimativa
+
+métricas, especialistas, modelos
+
+Priorização
+
+baseada em risco e valor
+
+Pirâmide
+
+muitos unitários, poucos E2E
+
+Quadrantes
+
+Q1–Q4 (técnico ↔ negócio / apoio ↔ produto)
+
+Risco
+
+probabilidade × impacto
+
+Tipos de risco
+
+projeto × produto
+
+Resposta ao risco
+
+mitigar, contingência, transferir, aceitar
+
+Métricas
+
+produto (MTTF) × processo (cobertura, defeitos)
+
+Relatórios
+
+progresso, defeitos, riscos
+
+CM
+
+controle de versão e rastreabilidade
+
+Defeito
+
+relato claro: passos, severidade, prioridade
