@@ -1,9 +1,15 @@
 # 📘 ISTQB-CTFL-v4-Material
 
-📅 Atualizado em: **19/09/2025**
+📅 Atualizado em: **11/11/2025**
 
-* Baixar o Anki (gratuito, Windows/Linux/Mac/Android/iOS).  
-* [Site oficial](https://apps.ankiweb.net)  
-* Criar um baralho chamado **“ISTQB CTFL v4”**.  
 
- Enjoy & bons estudos! 🚀
+------
+Arquivos.apkg são flashcards(baixar e importar o arquivo para o ANKI), link para baixar o ANKI
+[Site oficial](https://apps.ankiweb.net)  
+Link do curso do ANKI na Udemy
+[Curso do ANKI na Udemy](https://www.udemy.com/course/anki-repeticoes-espacadas-com-flashcards/?couponCode=MT251110G3)
+
+------
+Links importantes do site da CTFL
+-[BSTQB-CTFL](https://bstqb.online/ctfl)
+-[BSTQB](https://bstqb.online)
