@@ -1,0 +1,108 @@
+3.1 Noções básicas de Teste Estático
+Produtos que podem ser examinados (FL-3.1.1 – K1)
+
+Requisitos, histórias de usuário, critérios de aceitação.
+
+Casos de teste, planos de teste, checklists.
+
+Diagramas de arquitetura, modelos, design de banco de dados.
+
+Código-fonte e scripts.
+
+Documentação de usuário e contratos.
+
+Valor dos testes estáticos (FL-3.1.2 – K2)
+
+Identificam defeitos cedo → redução de custo e esforço de correção.
+
+Melhoram a compreensão do produto e alinhamento entre equipe.
+
+Aumentam a qualidade dos artefatos antes da execução do sistema.
+
+Previnem falhas, evitando retrabalho.
+
+Apoiam conformidade com normas, padrões e requisitos regulatórios.
+
+Comparação entre testes estáticos e dinâmicos (FL-3.1.3 – K2)
+
+Estáticos: analisam artefatos sem executar o software. Exemplos: revisões, inspeções, análise estática automatizada.
+
+Dinâmicos: executam o software e observam comportamento. Exemplos: testes funcionais, não funcionais, regressão.
+
+Estáticos = prevenção de defeitos | Dinâmicos = detecção de falhas.
+
+3.2 Processo de feedback e revisão
+Benefícios do feedback antecipado e frequente (FL-3.2.1 – K1)
+
+Detecção precoce de inconsistências, ambiguidades e defeitos.
+
+Redução de custos (corrigir cedo é mais barato).
+
+Melhor comunicação e alinhamento entre stakeholders.
+
+Melhoria contínua do processo e do produto.
+
+Atividades do processo de revisão (FL-3.2.2 – K2)
+
+Planejamento → definir escopo, participantes, critérios de entrada/saída.
+
+Kick-off (opcional) → alinhar expectativas e objetivos.
+
+Preparação individual → cada participante revisa o item.
+
+Reunião de revisão → discussão colaborativa dos achados.
+
+Correção → autor corrige os defeitos encontrados.
+
+Follow-up → líder/conf. verifica se correções foram feitas.
+
+Responsabilidades nas revisões (FL-3.2.3 – K1)
+
+Autor → cria o item, corrige defeitos.
+
+Moderador/Líder → planeja e conduz a revisão.
+
+Revisor → examina o item e reporta achados.
+
+Registrador (Scribe) → documenta os resultados.
+
+Tipos de revisão (FL-3.2.4 – K2)
+
+Informal: simples troca de ideias ou checagem rápida, sem registro formal.
+
+Walkthrough: autor apresenta o material e recebe feedback dos participantes.
+
+Revisão técnica: discussão técnica estruturada por especialistas.
+
+Inspeção: processo formal, bem definido, com papéis claros, métricas e follow-up rigoroso.
+
+Fatores de sucesso em revisões (FL-3.2.5 – K1)
+
+Objetivos claros.
+
+Participantes com papéis e responsabilidades definidos.
+
+Ambiente colaborativo, não punitivo.
+
+Preparação adequada antes da reunião.
+
+Checklists para guiar a análise.
+
+Limitar o tamanho do material revisado (evitar sobrecarga).
+
+🔎 Revisão rápida (para flashcards)
+Artefatos estáticos: requisitos, design, código, planos, docs.
+
+Valor: defeitos cedo, custo menor, prevenção, conformidade.
+
+Estático vs Dinâmico: prevenção vs detecção | sem execução vs com execução.
+
+Feedback antecipado: reduz custo, melhora comunicação.
+
+Atividades da revisão: planejamento → preparação → reunião → correção → follow-up.
+
+Papéis: autor, moderador, revisor, registrador.
+
+Tipos de revisão: informal, walkthrough, técnica, inspeção.
+
+Sucesso: objetivos claros, ambiente colaborativo, checklists, escopo limitado.
