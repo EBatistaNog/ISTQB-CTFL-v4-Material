@@ -1,0 +1,158 @@
+📖 Capítulo 1 – Fundamentos do Teste
+1.1 O que é teste?
+Definição: Teste é o processo de avaliar um componente ou sistema para verificar se atende aos requisitos e identificar defeitos.
+
+Objetivos típicos de teste (FL-1.1.1 – K1):
+
+Prevenir defeitos (detectar cedo inconsistências).
+
+Verificar se requisitos foram atendidos.
+
+Aumentar a confiança na qualidade.
+
+Encontrar falhas para corrigir.
+
+Fornecer informações para decisão (ex.: liberar ou não).
+
+Cumprir requisitos contratuais, legais ou regulatórios.
+
+Teste x Depuração (FL-1.1.2 – K2):
+
+Teste: identifica a presença de falhas (mas não as corrige).
+
+Depuração: atividade de desenvolvimento para localizar e corrigir a causa do defeito.
+
+1.2 Por que os testes são necessários?
+Razões (FL-1.2.1 – K2):
+
+Defeitos podem estar presentes desde o início (requisitos, design, código).
+
+Custos de corrigir defeitos aumentam quanto mais tarde forem encontrados.
+
+Riscos para negócio, segurança, reputação e clientes.
+
+Teste fornece evidências para avaliação da qualidade.
+
+Teste e Garantia de Qualidade (FL-1.2.2 – K1):
+
+Teste faz parte da Qualidade, mas não é o único meio (também inclui processos, revisões, normas etc.).
+
+Causa raiz, erro, defeito e falha (FL-1.2.3 – K2):
+
+Causa raiz: motivo profundo de um erro (ex.: requisitos mal comunicados).
+
+Erro (mistake): ação humana incorreta.
+
+Defeito (bug): imperfeição no artefato (código/documento).
+
+Falha (failure): comportamento incorreto no sistema em execução.
+
+1.3 Princípios de teste (FL-1.3.1 – K2)
+Testes mostram presença, não ausência de defeitos.
+
+Teste exaustivo é impossível.
+
+Teste antecipado economiza tempo e dinheiro.
+
+Agrupamento de defeitos (defects cluster together).
+
+Paradoxo do pesticida: repetir os mesmos testes reduz eficácia.
+
+Teste depende do contexto (ex.: crítico ≠ jogo).
+
+Ilusão de ausência de erros: sistema útil ≠ sistema sem defeitos.
+
+1.4 Atividades de teste, Testware e Papéis de teste
+Atividades e tarefas de teste (FL-1.4.1 – K2):
+
+Planejamento → Definir objetivos, escopo, recursos, riscos, cronograma e critérios de entrada/saída.
+
+Monitoramento e controle → Acompanhar o progresso, comparar com o plano e agir sobre desvios.
+
+Análise → Identificar condições de teste com base em requisitos e riscos.
+
+Design → Transformar condições em casos de teste, identificar dados e definir cobertura.
+
+Implementação → Preparar testware (dados, scripts, ambiente, ordem de execução).
+
+Execução → Rodar os testes, registrar resultados e reportar defeitos.
+
+Finalização → Encerrar, relatar lições aprendidas.
+
+Impacto do contexto (FL-1.4.2 – K2):
+
+Projetos ágeis, regulatórios ou críticos exigem abordagens diferentes.
+
+Testware (FL-1.4.3 – K2):
+
+Artefatos criados durante o teste (casos, dados, scripts, relatórios).
+
+Suportam planejamento, design, execução e análise.
+
+Rastreabilidade (FL-1.4.4 – K2):
+
+Conectar requisitos ↔ casos de teste ↔ defeitos encontrados.
+
+Facilita análise de impacto, auditorias e cobertura.
+
+Papéis no teste (FL-1.4.5 – K2):
+
+Testadores: projetam e executam testes.
+
+Líder de teste: planeja e coordena.
+
+Desenvolvedores: também podem criar testes (ex.: unitários).
+
+Usuários/negócio: ajudam com requisitos e testes de aceitação.
+
+1.5 Habilidades essenciais e boas práticas em testes
+Habilidades genéricas (FL-1.5.1 – K2):
+
+Pensamento crítico e analítico.
+
+Comunicação clara.
+
+Trabalho em equipe.
+
+Conhecimento técnico (ferramentas, automação).
+
+Negociação e resolução de problemas.
+
+Equipe completa (whole-team approach) (FL-1.5.2 – K1):
+
+Todos compartilham responsabilidade pela qualidade.
+
+Testadores colaboram com devs, negócio, PO, etc.
+
+Independência de teste (FL-1.5.3 – K2):
+
+Benefícios: visão imparcial, maior chance de achar defeitos.
+
+Desvantagens: risco de falta de comunicação, isolamento.
+
+Equilíbrio é o ideal → colaboração + independência.
+
+🔎 Revisão rápida (para flashcards)
+Objetivos do teste: prevenir defeitos, verificar requisitos, dar confiança, achar falhas, apoiar decisões, atender normas.
+
+Teste ≠ Depuração: teste encontra falhas, depuração corrige.
+
+Necessidade: defeitos sempre existem, mais caro corrigir tarde, riscos altos.
+
+Erro → Defeito → Falha; causa raiz é o motivo profundo.
+
+Princípios: presença, não ausência | exaustivo impossível | cedo é melhor | defeitos agrupam | pesticida | depende do contexto | útil ≠ sem defeitos.
+
+Atividades: planejar → monitorar → analisar → desenhar → implementar → executar → finalizar.
+
+Testware: artefatos de teste (casos, dados, scripts).
+
+Rastreabilidade: conectar requisitos ↔ testes ↔ defeitos.
+
+Papéis: testador, líder, dev, usuário.
+
+Habilidades: crítica, comunicação, técnica, trabalho em equipe.
+
+Equipe completa: todos responsáveis pela qualidade.
+
+Independência: visão imparcial vs risco de isolamento.
