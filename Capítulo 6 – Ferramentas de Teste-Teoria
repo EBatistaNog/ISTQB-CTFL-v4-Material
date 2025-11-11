@@ -1,0 +1,76 @@
+Objetivos de aprendizagem
+6.1 Suporte de Ferramentas para Testes
+Como ferramentas dão suporte aos testes (FL-6.1.1 – K2)
+Ferramentas podem automatizar, apoiar ou organizar as atividades de teste em diferentes fases. Exemplos:
+
+Gerenciamento de teste
+
+Planejamento, rastreabilidade, relatórios.
+
+Ex.: TestRail, Zephyr.
+
+Ferramentas de revisão estática e análise
+
+Revisão de código, análise estática, detecção de vulnerabilidades.
+
+Ex.: SonarQube, ESLint.
+
+Ferramentas de design e geração de teste
+
+Gerar dados ou casos de teste automaticamente.
+
+Ex.: ferramentas de geração de dados de teste.
+
+Ferramentas de execução de teste
+
+Automação funcional (ex.: Selenium, Cypress).
+
+Automação de API (ex.: Postman, RestAssured).
+
+Ferramentas de desempenho e carga
+
+Avaliam escalabilidade, estabilidade.
+
+Ex.: JMeter, Gatling.
+
+Ferramentas de monitoramento e observabilidade
+
+Monitoram logs, métricas, comportamento em produção.
+
+Ex.: Grafana, Kibana.
+
+👉 Cada tipo de ferramenta apoia atividades específicas do processo de teste: planejar, analisar, projetar, implementar, executar, relatar.
+
+6.2 Benefícios e Riscos da Automação de Teste
+Benefícios (FL-6.2.1 – K1)
+
+Execução mais rápida e frequente (suporte a CI/CD).
+
+Reuso de scripts de teste.
+
+Execução repetitiva, sem erro humano.
+
+Testes de grande volume/dados complexos.
+
+Maior cobertura em menos tempo.
+
+Feedback rápido sobre qualidade.
+
+Riscos (FL-6.2.1 – K1)
+
+Alto custo inicial (ferramentas, treinamento, scripts).
+
+Manutenção de scripts elevada (se o sistema muda muito).
+
+Falsa sensação de segurança (achar que “automatizado = 100% garantido”).
+
+Dependência da ferramenta (lock-in, limitações técnicas).
+
+Nem todos os testes são bons candidatos à automação (ex.: usabilidade, UX).
+
+🔎 Revisão rápida (para flashcards)
+Ferramentas apoiam: gestão, revisão estática, geração de casos, automação, performance, monitoramento.
+
+Benefícios automação: rapidez, repetição confiável, reuso, volume alto, cobertura, feedback rápido.
+
+Riscos automação: custo alto, manutenção, falsa segurança, dependência, limitações (ex.: UX).
