@@ -1,6 +1,6 @@
 # 📘 ISTQB-CTFL-v4-Material
 
-📅 Atualizado em: **11/11/2025**
+📅 Atualizado em: **19/11/2025**
 
 
 ------
@@ -10,7 +10,7 @@ Link do curso do ANKI na Udemy
 [Curso do ANKI na Udemy](https://www.udemy.com/course/anki-repeticoes-espacadas-com-flashcards/?couponCode=MT251110G3)
 
 ------
-Links importantes do site da CTFL
+FONTES - Links importantes do site da CTFL
 -[BSTQB-CTFL](https://bstqb.online/ctfl)
 -[BSTQB](https://bstqb.online)
 -[Provas em inglês A B C D em suas últimas versões](https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0).
