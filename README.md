@@ -13,3 +13,4 @@ Link do curso do ANKI na Udemy
 Links importantes do site da CTFL
 -[BSTQB-CTFL](https://bstqb.online/ctfl)
 -[BSTQB](https://bstqb.online)
+-[Provas em inglês A B C D em suas últimas versões](https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0).
