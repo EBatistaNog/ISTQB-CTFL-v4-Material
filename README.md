@@ -1,6 +1,6 @@
 # 📘 ISTQB-CTFL-v4-Material
 
-📅 Atualizado em: **19/11/2025**
+📅 Atualizado em: **24/11/2025**
 
 
 ------
